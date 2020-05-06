@@ -52,7 +52,8 @@ c. book an appointment
 * bot_challenge
   - utter_iamabot
 
-
+* tell_me_more: tell me about varun (fun fact)
+  - utter_hobby
 
 # Owlo design
 Have my owl in an animated version

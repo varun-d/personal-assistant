@@ -1,51 +1,44 @@
 #### This file contains tests to evaluate that your bot behaves as expected.
 #### If you want to learn more, please see the docs: https://rasa.com/docs/rasa/user-guide/testing-your-assistant/
 
-## happy path 1
-* greet: hello there!
+## greet check
+* greet: hey hi
   - utter_greet
-* mood_great: amazing
-  - utter_happy
+  - utter_menu
 
-## happy path 2
-* greet: hello there!
-  - utter_greet
-* mood_great: amazing
-  - utter_happy
-* goodbye: bye-bye!
-  - utter_goodbye
+## yes: greet -> work
+* workexperience: tell me about his work experience
+  - utter_work1
+  - utter_needmore
+* affirm: yea
+  - utter_work2
+  - utter_linkedin
 
-## sad path 1
-* greet: hello
-  - utter_greet
-* mood_unhappy: not good
-  - utter_cheer_up
-  - utter_did_that_help
-* affirm: yes
-  - utter_happy
+## no: greet -> work
+* workexperience: varuns experience
+  - utter_work1
+  - utter_needmore
+* deny: no that's fine
+  - utter_altmenu
 
-## sad path 2
-* greet: hello
-  - utter_greet
-* mood_unhappy: not good
-  - utter_cheer_up
-  - utter_did_that_help
-* deny: not really
-  - utter_goodbye
-
-## sad path 3
-* greet: hi
-  - utter_greet
-* mood_unhappy: very terrible
-  - utter_cheer_up
-  - utter_did_that_help
-* deny: no
-  - utter_goodbye
+## yes: greet -> education
+* education: what did he study?
+  - utter_edu1
+  - utter_linkedin
+  - utter_altmenu
 
 ## say goodbye
-* goodbye: bye-bye!
+* goodbye: take care bye
   - utter_goodbye
 
 ## bot challenge
 * bot_challenge: are you a bot?
   - utter_iamabot
+
+## joke 
+* asked_joke: tell me a joke
+  - utter_joke
+
+## insult
+* insult: shit bot
+  - utter_reprimand

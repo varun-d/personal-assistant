@@ -18,6 +18,12 @@
 * deny
   - utter_altmenu
 
+## yes: greet -> education
+* education
+  - utter_edu1
+  - utter_linkedin
+  - utter_altmenu
+
 ## say goodbye
 * goodbye
   - utter_goodbye
