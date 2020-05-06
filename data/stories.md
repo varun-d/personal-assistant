@@ -1,26 +1,22 @@
-## happy path
+## greet
 * greet
   - utter_greet
-* mood_great
-  - utter_happy
+  - utter_menu
 
-## sad path 1
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
+## yes: greet -> work
+* workexperience
+  - utter_work1
+  - utter_needmore
 * affirm
-  - utter_happy
+  - utter_work2
+  - utter_linkedin
 
-## sad path 2
-* greet
-  - utter_greet
-* mood_unhappy
-  - utter_cheer_up
-  - utter_did_that_help
+## no: greet -> work
+* workexperience
+  - utter_work1
+  - utter_needmore
 * deny
-  - utter_goodbye
+  - utter_altmenu
 
 ## say goodbye
 * goodbye

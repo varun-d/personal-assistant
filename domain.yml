@@ -3,23 +3,40 @@ intents:
   - goodbye
   - affirm
   - deny
-  - mood_great
-  - mood_unhappy
+  - workexperience
   - bot_challenge
 
 responses:
   utter_greet:
-  - text: "Hey! How are you?"
+  - text: "Hoot! This is Owlo, Varun's personal assistant."
 
-  utter_cheer_up:
-  - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+  utter_menu:
+  - text: "You can ask me about: "
+    buttons:
+    - title: "Varun's work experience"
+      payload: 'work experience'
+    - title: "his education"
+      payload: 'work experience'
+    - title: "contact him"
+      payload: 'work experience'
 
   utter_did_that_help:
   - text: "Did that help you?"
 
-  utter_happy:
-  - text: "Great, carry on!"
+  utter_work1:
+  - text: "Varun has been working at Accenture since 2 years. Prior to that he founded Nameless Co. in 2016."
+
+  utter_work2:
+  - text: "In 2015, Varun was Head of Digital Strategy at Mojo Group where he introduced new UX and digital pitching protocols. Prior to that, he worked in Digital Analytics at DigitasLBi."
+
+  utter_linkedin:
+  - text: "Just as you would expect, you can find him on LinkedIn https://www.linkedin.com/in/varundhanwantri/"
+
+  utter_needmore:
+  - text: "Would you like to know more?"
+
+  utter_altmenu:
+  - text: "That's a hoot! If you like, you can ask me about his work experience, education and contact info, or visit https://www.linkedin.com/in/varundhanwantri/"
 
   utter_goodbye:
   - text: "Bye"

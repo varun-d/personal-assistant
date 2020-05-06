@@ -27,15 +27,13 @@
 - no way
 - not really
 
-## intent:mood_great
-- perfect
-- very good
-- great
-- amazing
-- wonderful
-- I am feeling very good
-- I am great
-- I'm good
+## intent:workexperience
+- work experience
+- work history
+- tell me about his work experience
+- tell me more about work
+- about his work experience
+- his experience with work
 
 ## intent:mood_unhappy
 - sad
