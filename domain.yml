@@ -51,7 +51,7 @@ responses:
   - text: "I, Owlo am a personal assistant, powered by Rasa created by Varun."
 
   utter_reprimand:
-  - text: "Ow Owl had a Owch!"
+  - text: "Ow Owlo had an owchy!"
 
   utter_joke:
   - text: "Why are owls so good at math? They excel at owlgebra."

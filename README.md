@@ -3,7 +3,15 @@
 Designed to live on my website to be a fun replacement for resumes.
 Also designed as a playground for unique chatbot intents.
 
-# Plan of attack
+# Todo
+Add contact
+Add work specific intents (Mojo, accenture, lbi/digitas/digitaslbi)
+Add hobby/tell me about varun / fun fact
+* tell_me_more: tell me about varun (fun fact)
+  - utter_hobby
+
+
+# Intent simulations
 * greet
   - utter_greet (Hoot! How are you {name}? This is Owlo, Varun's personal assistant.)
   - utter_menu (You can ask me about: <a. button: Varun's work experience> <b. button: his education> <c. button: contact him>)
@@ -52,8 +60,7 @@ c. book an appointment
 * bot_challenge
   - utter_iamabot
 
-* tell_me_more: tell me about varun (fun fact)
-  - utter_hobby
+
 
 # Owlo design
 Have my owl in an animated version
