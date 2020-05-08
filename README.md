@@ -4,6 +4,9 @@ Designed to live on my website to be a fun replacement for resumes.
 Also designed as a playground for unique chatbot intents.
 
 # Todo
+Experiment with custom model, duplicate config.yml and test it. #results: ConveRTT works slighly better.
+Train it with more data!
+
 Add contact
 Add work specific intents (Mojo, accenture, lbi/digitas/digitaslbi)
 Add hobby/tell me about varun / fun fact
@@ -61,6 +64,18 @@ c. book an appointment
   - utter_iamabot
 
 
-
 # Owlo design
 Have my owl in an animated version
+
+# Notes
+Need ```pip install rasa[convert]``` to test ConveRTT Tokenizer and Featurizer, in a new branch and will test using
+
+``` $ rasa test nlu --config config.yml config_conveRTT.yml --nlu data/nlu.md --runs 3 --percentages 0 25 50 70 90 ```
+rasa visualize
+
+# Pipeline
+
+rasa data validate --fail-on-warnings --max-history <max_history>
+rasa train
+rasa test rasa test --fail-on-prediction-errors
+Test Action Code

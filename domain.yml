@@ -5,6 +5,7 @@ intents:
   - deny
   - workexperience
   - education
+  - contact
   - bot_challenge
   - asked_joke: {triggers: utter_joke}
   - insult: {triggers: utter_reprimand}
@@ -36,22 +37,25 @@ responses:
   - text: "Back in 2008, Varun graduated with a B.Eng in Electronics and Instrumentation from BITS Pilani - Dubai campus. Since then, he has taken interest in several courses."
 
   utter_linkedin:
-  - text: "Just as you would expect, you can find him on LinkedIn https://www.linkedin.com/in/varundhanwantri/"
+  - text: "You can also find him on LinkedIn at https://www.linkedin.com/in/varundhanwantri/"
 
   utter_needmore:
   - text: "Would you like to know more?"
 
   utter_altmenu:
-  - text: "That's a hoot! If you like, you can ask me about his work experience, education and contact info, or visit https://www.linkedin.com/in/varundhanwantri/"
+  - text: "That's a hoot! You can ask me about his work experience, education and contact info, or visit https://www.linkedin.com/in/varundhanwantri/"
 
   utter_goodbye:
   - text: "It was a hoot talking to ya! Bye."
 
   utter_iamabot:
-  - text: "I, Owlo am a personal assistant, powered by Rasa created by Varun."
+  - text: "FYI I am Owlo🦉 Personal assistant created by Varun and powered by Rasa."
 
   utter_reprimand:
   - text: "Ow Owlo had an owchy!"
+
+  utter_contact:
+  - text: "Get in touch with him at varun@thisnameless.com."
 
   utter_joke:
   - text: "Why are owls so good at math? They excel at owlgebra."

@@ -29,37 +29,6 @@
 - why don't you tell me a joke?
 - do you tell jokes?
 
-## intent:greet
-- hey
-- hello
-- hi
-- good morning
-- good evening
-- hey there
-
-## intent:goodbye
-- bye
-- goodbye
-- see you around
-- see you later
-- take care bye
-- bye
-
-## intent:affirm
-- yes
-- indeed
-- of course
-- that sounds good
-- correct
-
-## intent:deny
-- no
-- never
-- I don't think so
-- don't like that
-- no way
-- not really
-
 ## intent:bot_challenge
 - are you a bot?
 - are you a human?
@@ -67,6 +36,10 @@
 - am I talking to a human?
 - who made you?
 - who created you?
+- main menu
+- go to menu
+- what else can you do?
+- who am I talking to?
 
 ## intent:insult
 - fuck you
@@ -82,9 +55,233 @@
 - stupid
 - shit bot
 
-## intent:teach_interest
-- i'd like to teach you
-- its time to learn
-- you should learn
-- lets take some time to learn
-- time to learn
+## intent:greet
+- hey
+- hello
+- hi
+- good morning
+- good evening
+- hey there
+
+## intent:goodbye
+- bye
+- goodbye
+- see you around
+- see you later
+- take care bye
+- bye
+- thank you that's all
+- ok thanks
+- take care talk to you later
+- bye bye
+- ciao
+
+## intent: contact
+- how do I get in touch with Varun?
+- how do I contact him?
+- whats his contact information
+- whats his email
+- his email address
+- his contact details
+- varuns address
+- can you tell me his email
+- what is his email address
+
+## intent:deny
+- I can't
+- of course no
+- I am afraid this is not possible
+- of course I can't do that
+- I think this is not right
+- absoloutley no
+- It is not ok
+- no that's fine
+- no its ok
+- no it's okay
+- Stop
+- I decline this
+- I want to dispute this
+- Rejected
+- Not okay
+- Prohibited
+- Nah
+- That's not it
+- Terrible
+- Wrong
+- False
+- Bad
+- Error
+- Inaccurate
+- Fault
+- Blunder
+- No, thanks!
+- I don’t think so
+- It doesn’t help
+- hm nope
+- Sorry
+- nope, sorry
+- not interested
+- may be the other
+- no, I don’t like it
+- That's not quite it
+- That's not what I asked for
+- I wasn't asking for this
+- I wanted to know something else
+- This is not what I wanted
+- You didn't get me
+- You got me wrong
+- I am asking again
+- You misunderstood me
+- Maybe I wasn't clear
+- Nopes
+- I don’t want to do so
+- I don’t agree
+- No, Not at all
+- Definitely NO
+- A Big NO
+- Disagree
+- I can’t agree to this
+- Not an agreeable suggestion
+- That’s not agreeable
+- Denied
+- Unwilling to do so
+- Fail to agree
+- I doubt
+- There is a problem
+- I appreciate the offer, but?
+- That sounds great, but?
+- I really appreciate this but?
+- I?m sorry I can?t
+- I have already this plan? sorry
+- Sorry i am not interested
+- no, never
+- absolutely not,
+- don’t agree
+- don’t agree with u
+- total disagreement
+- not on the same page
+- I object to this fact u stated just now
+- this fact is untrue
+- No,i don't think so
+- I am not agree with you
+- Sorry ,You are wrong
+- Not so
+- I don't think so
+- I can't agree with you ,sorry
+- Never,you misleading the reality
+- Not so, i think that is not true
+- no
+- never
+- I don't think so
+- don't like that
+- no way
+- not really
+
+## intent:affirm
+- I am definitely sure
+- I am absolutely sure
+- it's definitely right
+- I am donfident from what I say
+- it's impossible this could be wrong
+- I confirm this happens
+- I'm one hundred percent sure of it
+- i have tried many times but still the same
+- results won't differ i'm sure
+- I approve
+- Go along
+- Proceed
+- I accept this
+- Affirmed
+- Accepted
+- I verified
+- Yah
+- Hmm ya
+- Fantastic
+- Juhu!
+- Nice
+- Awesome
+- Right
+- Amazing
+- Precisely
+- Totally
+- exactly, that’s what I was looking for
+- thats great
+- I like to go forward
+- I would like to proceed with this
+- yes, I’m interested
+- Yes, Sure
+- I like it so
+- yes, I think so
+- thats nice
+- It’s good
+- seems okay
+- Copy that
+- Cool
+- Cheers
+- This is what I was looking for
+- You helped me a lot to solve my problems!
+- Thanks for the help!
+- Yes!
+- Thats good enough!
+- Thanks for solving!
+- Thats was a great help!
+- I am glad you helped me!
+- Yeah, great!
+- Yeah! That’s what I wanted to do
+- Sure! This is the solution I was looking for
+- Agreed
+- Certainly, I would like to go for it
+- I am absolutely fine with your suggestion
+- Yes, I do
+- Oh, YES!!!
+- Thanks, that’s what I wanted
+- Yesses!!!!
+- I’m fine
+- OKAY
+- Sure, go ahead
+- All right, I agree to it
+- Oh!! Yes
+- Fine
+- Okay! Got it
+- thanks for your information
+- Great! Thanks
+- thanks for you help
+- its really nice information Thanks
+- Wow! Great explanation
+- Yes! Sure
+- Nice to talk with you Thanks
+- Have a nice day
+- Love this info Bye
+- sure,
+- yes on that
+- we are in agreement on this matter
+- on the same page
+- Yes, you are correct
+- Absolutely you are correct
+- Defenitely
+- Why not ? I am ok for that
+- Always , am ready
+- I am sure
+- yes,yes that is what i looks
+- Exactly you are right
+- Yes,Alright!
+- Ok fine!
+- Agree
+- I accept
+- Sounds good!
+- For sure!
+- Okay!
+- No doubt
+- Definitely
+- Surely
+- Fair enough
+- Yes,True
+- Right then
+- By all means
+- yeah
+- sure
+- yes
+- yeaaas
+- yes sure
+- yea ok
+- yeah ok

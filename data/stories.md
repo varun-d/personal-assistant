@@ -10,6 +10,7 @@
 * affirm
   - utter_work2
   - utter_linkedin
+  - utter_altmenu
 
 ## no: greet -> work
 * workexperience
@@ -24,6 +25,11 @@
   - utter_linkedin
   - utter_altmenu
 
+## contact
+* contact
+  - utter_contact
+  - utter_altmenu
+
 ## say goodbye
 * goodbye
   - utter_goodbye
@@ -31,3 +37,4 @@
 ## bot challenge
 * bot_challenge
   - utter_iamabot
+  - utter_altmenu

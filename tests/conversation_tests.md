@@ -13,6 +13,7 @@
 * affirm: yea
   - utter_work2
   - utter_linkedin
+  - utter_altmenu
 
 ## no: greet -> work
 * workexperience: varuns experience
@@ -27,6 +28,11 @@
   - utter_linkedin
   - utter_altmenu
 
+## contact
+* contact: how do I contact him?
+  - utter_contact
+  - utter_altmenu
+
 ## say goodbye
 * goodbye: take care bye
   - utter_goodbye
@@ -34,6 +40,7 @@
 ## bot challenge
 * bot_challenge: are you a bot?
   - utter_iamabot
+  - utter_altmenu
 
 ## joke 
 * asked_joke: tell me a joke
