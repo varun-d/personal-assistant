@@ -3,3 +3,6 @@ _env
 models
 credentials.yml
 results
+*.db
+*.db-shm
+*.db-wal
