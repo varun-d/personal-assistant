@@ -12,26 +12,24 @@
   - utter_needmore
 * affirm: yea
   - utter_work2
-  - utter_linkedin
-  - utter_altmenu
+  - utter_menu
 
 ## no: greet -> work
 * workexperience: varuns experience
   - utter_work1
   - utter_needmore
 * deny: no that's fine
-  - utter_altmenu
+  - utter_menu
 
 ## yes: greet -> education
 * education: what did he study?
   - utter_edu1
-  - utter_linkedin
-  - utter_altmenu
+  - utter_menu
 
 ## contact
 * contact: how do I contact him?
   - utter_contact
-  - utter_altmenu
+  - utter_menu
 
 ## say goodbye
 * goodbye: take care bye
@@ -40,12 +38,22 @@
 ## bot challenge
 * bot_challenge: are you a bot?
   - utter_iamabot
-  - utter_altmenu
-
-## joke 
-* asked_joke: tell me a joke
-  - utter_joke
+  - utter_menu
 
 ## insult
 * insult: shit bot
   - utter_reprimand
+
+## joke pos
+* asked_joke: tell me a joke
+  - utter_wasitgood
+* affirm: haha yes that was funny
+  - utter_happy
+  - utter_menu
+
+## joke neg
+* asked_joke: hey tell me a joke
+  - utter_wasitgood
+* deny: no that was bad!
+  - utter_sad
+  - utter_menu

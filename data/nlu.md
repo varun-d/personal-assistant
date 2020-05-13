@@ -75,6 +75,9 @@
 - take care talk to you later
 - bye bye
 - ciao
+- no thanks, that's all
+- no that's alright
+- no its okay
 
 ## intent: contact
 - how do I get in touch with Varun?
@@ -247,7 +250,7 @@
 - Great! Thanks
 - thanks for you help
 - its really nice information Thanks
-- Wow! Great explanation
+- Wow! Great
 - Yes! Sure
 - Nice to talk with you Thanks
 - Have a nice day
@@ -285,3 +288,7 @@
 - yes sure
 - yea ok
 - yeah ok
+- hahahha
+- lol
+- lmao
+- so funny
