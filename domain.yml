@@ -1,65 +1,79 @@
-intents:
-  - greet
-  - goodbye
-  - affirm
-  - deny
-  - workexperience
-  - education
-  - bot_challenge
-  - asked_joke: {triggers: utter_joke}
-  - insult: {triggers: utter_reprimand}
-
-responses:
-  utter_greet:
-  - text: "Hoot! This is Owlo, Varun's personal assistant."
-
-  utter_menu:
-  - text: "I'd love to tell you about: "
-    buttons:
-    - title: "Work experience"
-      payload: 'Tell me about his work experience'
-    - title: "Education"
-      payload: 'tell me about his education'
-    - title: "Contact him"
-      payload: 'how do I contact Varun?'
-
-  utter_did_that_help:
-  - text: "Did that help you?"
-
-  utter_work1:
-  - text: "Varun has been working at Accenture since 2 years. Prior to that he founded Nameless Co. in 2016."
-
-  utter_work2:
-  - text: "In 2015, Varun was Head of Digital Strategy at Mojo Group where he introduced new UX and digital pitching protocols. Prior to that, he worked in Digital Analytics at DigitasLBi."
-
-  utter_edu1:
-  - text: "Back in 2008, Varun graduated with a B.Eng in Electronics and Instrumentation from BITS Pilani - Dubai campus. Since then, he has taken interest in several courses."
-
-  utter_linkedin:
-  - text: "Just as you would expect, you can find him on LinkedIn https://www.linkedin.com/in/varundhanwantri/"
-
-  utter_needmore:
-  - text: "Would you like to know more?"
-
-  utter_altmenu:
-  - text: "That's a hoot! If you like, you can ask me about his work experience, education and contact info, or visit https://www.linkedin.com/in/varundhanwantri/"
-
-  utter_goodbye:
-  - text: "It was a hoot talking to ya! Bye."
-
-  utter_iamabot:
-  - text: "I, Owlo am a personal assistant, powered by Rasa created by Varun."
-
-  utter_reprimand:
-  - text: "Ow Owlo had an owchy!"
-
-  utter_joke:
-  - text: "Why are owls so good at math? They excel at owlgebra."
-  - text: "What kind of gang violence is common among owls? A drive by hooting."
-  - text: "What did the owl’s valentine say? You are hootiful."
-  - text: "What do you call a smartass bird of prey? A know it owl."
-  - text: "Why doesn’t an owl study for a test? They prefer to wing it."
-
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
+intents:
+- greet
+- goodbye
+- affirm
+- deny
+- workexperience
+- education
+- contact
+- bot_challenge
+- asked_joke
+- insult:
+    triggers: utter_reprimand
+responses:
+  utter_greet:
+  - text: This is Owlo, Varun's personal assistant.
+  utter_menu:
+  - text: "That's a hoot! I'd love to tell you about Varun's: "
+    buttons:
+    - title: Work experience
+      payload: Tell me about his work experience
+    - title: Education
+      payload: tell me about his education
+    - title: Contact info
+      payload: how do I contact Varun?
+  utter_did_that_help:
+  - text: Did that help you?
+  utter_work1:
+  - text: Varun has been working at Accenture since 2 years. Prior to that he founded
+      Nameless Co. in 2016.
+  utter_work2:
+  - text: In 2015, Varun was Head of Digital Strategy at Mojo Group where he introduced
+      new UX and digital pitching protocols. Prior to that, he worked in Digital Analytics
+      at DigitasLBi. Also, https://www.linkedin.com/in/varundhanwantri/
+  utter_edu1:
+  - text: Back in 2008, Varun graduated with a B.Eng in Electronics and Instrumentation
+      from BITS Pilani - Dubai campus. Since then, he has taken interest in several
+      courses. Also, https://www.linkedin.com/in/varundhanwantri/
+  utter_needmore:
+  - text: Would you like to know more?
+  utter_goodbye:
+  - text: It was a hoot talking to ya! Bye.
+  utter_iamabot:
+  - text: FYI I am Owlo🦉 Personal assistant created by Varun and powered by Rasa.
+  utter_reprimand:
+  - text: Ow Owlo had an owchy!
+  utter_contact:
+  - text: Get in touch with him at varun@thisnameless.com.
+  utter_joke:
+  - text: Why are owls so good at math? They excel at owlgebra.
+  - text: What kind of gang violence is common among owls? A drive by hooting.
+  - text: What did the owl’s valentine say? You are hootiful.
+  - text: What do you call a smartass bird of prey? A know it owl.
+  - text: Why doesn’t an owl study for a test? They prefer to wing it.
+  utter_wasitgood:
+  - text: Liked it?
+  - text: Did that make you 😊 out loud?
+  utter_happy:
+  - text: Yey! That makes me happy
+  utter_sad:
+  - text: I will practice more jokes, just for you.
+actions:
+- utter_greet
+- utter_menu
+- utter_did_that_help
+- utter_work1
+- utter_work2
+- utter_edu1
+- utter_needmore
+- utter_goodbye
+- utter_iamabot
+- utter_reprimand
+- utter_contact
+- utter_joke
+- utter_wasitgood
+- utter_happy
+- utter_sad
