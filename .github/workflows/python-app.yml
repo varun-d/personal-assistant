@@ -23,5 +23,6 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install flake8 pytest
-        if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
+        pip install rasa[convert]
+    - name: Run rasa data validation
+      run: rasa data validate --fail-on-warnings --max-history 5
