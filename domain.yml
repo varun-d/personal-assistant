@@ -15,7 +15,7 @@ intents:
     triggers: utter_reprimand
 responses:
   utter_greet:
-  - text: This is Owlo, Varun's personal assistant.
+  - text: This is Owlo, Varun's *personal assistant*.
   utter_menu:
   - text: "That's a hoot! I'd love to tell you about Varun's: "
     buttons:
@@ -25,8 +25,6 @@ responses:
       payload: tell me about his education
     - title: Contact info
       payload: how do I contact Varun?
-  utter_did_that_help:
-  - text: Did that help you?
   utter_work1:
   - text: Varun has been working at Accenture since 2 years. Prior to that he founded
       Nameless Co. in 2016.
@@ -42,6 +40,7 @@ responses:
   - text: Would you like to know more?
   utter_goodbye:
   - text: It was a hoot talking to ya! Bye.
+  - text: Speak to you later!
   utter_iamabot:
   - text: FYI I am Owlo🦉 Personal assistant created by Varun and powered by Rasa.
   utter_reprimand:
@@ -64,7 +63,6 @@ responses:
 actions:
 - utter_greet
 - utter_menu
-- utter_did_that_help
 - utter_work1
 - utter_work2
 - utter_edu1

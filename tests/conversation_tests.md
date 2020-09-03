@@ -46,6 +46,7 @@
 
 ## joke pos
 * asked_joke: tell me a joke
+  - utter_joke
   - utter_wasitgood
 * affirm: haha yes that was funny
   - utter_happy
@@ -53,6 +54,7 @@
 
 ## joke neg
 * asked_joke: hey tell me a joke
+  - utter_joke
   - utter_wasitgood
 * deny: no that was bad!
   - utter_sad

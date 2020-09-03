@@ -52,3 +52,7 @@
 * deny
   - utter_sad
   - utter_menu
+
+## bad language
+* insult
+  - utter_reprimand
