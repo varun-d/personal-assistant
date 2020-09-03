@@ -20,9 +20,23 @@ jobs:
       uses: actions/setup-python@v2
       with:
         python-version: 3.7
+    - name: Cache pip
+      uses: actions/cache@v2
+      with:
+        # This path is specific to Ubuntu
+        path: ~/.cache/pip
+        # Look to see if there is a cache hit for the corresponding requirements file
+        key: ${{ runner.os }}-pip-rasa
+        restore-keys: |
+          ${{ runner.os }}-pip-
+          ${{ runner.os }}-
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
         pip install rasa[convert]
-    - name: Run rasa data validation
+    - name: Rasa Data Validation
       run: rasa data validate --fail-on-warnings --max-history 5
+    - name: Rasa Train NLU
+      run: rasa train
+    - name: Rasa Test NLU
+      run: rasa test --fail-on-prediction-errors
