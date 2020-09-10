@@ -43,6 +43,9 @@ rasa test --fail-on-prediction-errors
 
 // In case great changes to nlu have been made! rasa test nlu --cross-validation
 
+# Start server
+rasa run --enable-api --cors "*"
+
 # Future: Add DB feature
 import sqlite3
 from sqlite3 import Error
